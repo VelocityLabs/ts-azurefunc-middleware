@@ -2,17 +2,20 @@
   "name": "ts-azurefunc-middleware",
   "version": "0.6.0",
   "description": "Implementation of Middleware pattern for Azure Functions",
-  "main": "dist/middlewareHandler.js",
-  "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "test": "echo \"No tests yet...\""
+  "main": "lib/middlewareHandler.js",
+  "directories": {
+    "lib": "lib"
   },
   "dependencies": {
     "@azure/functions": "^1.0.2-beta2"
   },
   "devDependencies": {
     "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"No tests yet...\""
   },
   "repository": {
     "type": "git",
