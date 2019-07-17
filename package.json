@@ -1,6 +1,6 @@
 {
   "name": "ts-azurefunc-middleware",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Implementation of Middleware pattern for Azure Functions",
   "main": "lib/middlewareHandler.js",
   "directories": {
