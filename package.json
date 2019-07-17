@@ -1,0 +1,32 @@
+{
+  "name": "ts-azurefunc-middleware",
+  "version": "0.6.0",
+  "description": "Implementation of Middleware pattern for Azure Functions",
+  "main": "dist/middlewareHandler.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^1.0.2-beta2"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VelocityLabs/ts-azurefunc-middleware.git"
+  },
+  "keywords": [
+    "azure",
+    "functions",
+    "middleware"
+  ],
+  "author": "Terminal Velocity Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VelocityLabs/ts-azurefunc-middleware/issues"
+  },
+  "homepage": "https://github.com/VelocityLabs/ts-azurefunc-middleware#readme"
+}
